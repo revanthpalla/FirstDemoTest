@@ -1,7 +1,10 @@
 #include<iostream>
+#include<cstring>
 
 int main()
 {
-  std::cout << "hello World" << endl; 
-  return 0;
+	string name;
+	std::cin >> name;
+  	std::cout << "hello World " << name << endl; 
+  	return 0;
 }
